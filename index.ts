@@ -32,7 +32,7 @@ function getFormattedServerTime(): string {
  *    Returns the server's IP address in JSON.
  */
 app.get("/server-ip", (req: Request, res: Response) => {
-    const serverIp = "IPV6 ";
+    const serverIp = "35.183.155.159";
     res.json({ serverIp });
 });
 
